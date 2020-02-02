@@ -12,7 +12,7 @@ def position_taken?(board, index)
 end
 
 def board_position?(number)
-  if number.between(0,8) == true
+  if number.between?(0,8) == true
     return true
   else
     return false
