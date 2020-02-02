@@ -11,8 +11,8 @@ def position_taken?(board, index)
   end
 end
 
-def valid_move?(number)
-  if number.between(0,8) == true
+def board_position(number)
+  if board_position.between(0,8) == true
     return true
   else
     return false
